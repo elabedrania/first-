@@ -1,0 +1,14 @@
+k bsh torbet l front bel back :
+1//
+
+temshy lel app module . ts o t'importi l http client module:
+		import{httpClientModule} from '@angular/common/http';
+
+2//
+tassna3 service o ba3d ta3ml
+
+3//
+ configuration f wesst service:
+	declaration lien backend: url = 'http://127.0.0.1:3000/hero/';
+	temshy lel constructor f wesst class sharedService
+			constractor(private http: httpClient){}
